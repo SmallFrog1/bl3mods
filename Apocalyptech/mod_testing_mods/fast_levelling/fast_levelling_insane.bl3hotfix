@@ -16,8 +16,8 @@
 ###
 
 # Base XP Scaling
-SparkPatchEntry,(1,1,0,),/Game/GameData/Balance/Experience/Att_BaseEnemyExperience.Att_BaseEnemyExperience:ValueResolver_PlayThroughDefinedAttributeValueResolver,Value.PlaythroughOne.BaseValueConstant,0,,5000
-SparkPatchEntry,(1,1,0,),/Game/GameData/Balance/Experience/Att_BaseEnemyExperience.Att_BaseEnemyExperience:ValueResolver_PlayThroughDefinedAttributeValueResolver,Value.PlaythroughTwoAndBeyond.BaseValueConstant,0,,5000
+SparkPatchEntry,(1,1,0,),/Game/GameData/Balance/Experience/Att_BaseEnemyExperience.Att_BaseEnemyExperience:ValueResolver_PlayThroughDefinedAttributeValueResolver,Value.PlaythroughOne.BaseValueConstant,0,,500000
+SparkPatchEntry,(1,1,0,),/Game/GameData/Balance/Experience/Att_BaseEnemyExperience.Att_BaseEnemyExperience:ValueResolver_PlayThroughDefinedAttributeValueResolver,Value.PlaythroughTwoAndBeyond.BaseValueConstant,0,,500000
 
 # Remove XP Scaling by level differences
 SparkPatchEntry,(1,1,0,),/Game/GameData/Balance/ExperienceGlobals.ExperienceGlobals,ExpScaleByLevelDifference.ExpScaleByLevelDifference[0].HigherLevelEnemyExpScale,0,,1
